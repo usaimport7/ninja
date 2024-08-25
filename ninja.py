@@ -32,7 +32,7 @@ kimono_image = st.image("z3.png", caption="Other Tour Image")
 
 # 動画の表示
 # 動画の表示
-kimono_video = st.video("https://youtu.be/BoHJpedovFM", caption="Watch out for sounds")
+kimono_video = st.video("https://youtu.be/BoHJpedovFM")
 
 
 st.header('Q&A')
