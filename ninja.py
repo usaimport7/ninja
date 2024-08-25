@@ -24,7 +24,13 @@ kimono_image = st.image("z2.png", caption="Temple, Karaoke, Food, etc.")
 # 動画の表示
 st.header('Introduction of Your guide Miley')
 st.text("Watch out for sounds")
-kimono_video = st.video("mileyintro.mp4", format="video/mp4")
+# サムネイル画像を表示
+st.image("thumbnail.jpg", caption="Click to play video", use_column_width=True)
+
+# ユーザーがクリックしたら動画を表示する
+if st.button("Play Video"):
+    st.video("mileyintro.mp4", format="video/mp4")
+
 
 st.subheader('Other outfits and other locations')
 st.text("We also offer tours to Shinjuku/Akihabara etc.")
