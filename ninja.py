@@ -28,10 +28,10 @@ st.subheader('Other outfits and other locations')
 st.text("We also offer tours to Shinjuku/Akihabara etc.")
 
 # 画像の表示
-kimono_image = st.image("z3.png", caption="Ninja Tour Image")
+kimono_image = st.image("z3.png", caption="Other Tour Image")
 
 # 動画の表示
-kimono_video = st.video("review.mp4", format="video/mp4")
+kimono_video = st.video("https://youtu.be/BoHJpedovFM", format="video/mp4", caption="Watch out for sounds")
 
 st.header('Q&A')
 
