@@ -31,7 +31,9 @@ st.text("We also offer tours to Shinjuku/Akihabara etc.")
 kimono_image = st.image("z3.png", caption="Other Tour Image")
 
 # 動画の表示
-kimono_video = st.video("https://youtu.be/BoHJpedovFM", format="video/mp4", caption="Watch out for sounds")
+# 動画の表示
+kimono_video = st.video("https://youtu.be/BoHJpedovFM", caption="Watch out for sounds")
+
 
 st.header('Q&A')
 
