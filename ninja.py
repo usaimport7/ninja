@@ -18,11 +18,12 @@ st.header('About Soraie Ninja guide Service by Miley')
 st.text("Asakusa guided tour")
 
 # 画像の表示
-kimono_image = st.image("z1.png", caption="Ninja Tour Image")
-kimono_image = st.image("z2.png", caption="Ninja Tour Image")
+kimono_image = st.image("z1.png", caption="Ninja Tour by a former idol Miley")
+kimono_image = st.image("z2.png", caption="Temple, Karaoke, Food, etc.")
 
 # 動画の表示
-kimono_video = st.video("mileyintro.mp4", format="video/mp4")
+st.header('Introduction of Your guide Miley')
+kimono_video = st.video("mileyintro.mp4", format="video/mp4", caption="Watch out for sounds")
 
 st.subheader('Other outfits and other locations')
 st.text("We also offer tours to Shinjuku/Akihabara etc.")
@@ -30,7 +31,6 @@ st.text("We also offer tours to Shinjuku/Akihabara etc.")
 # 画像の表示
 kimono_image = st.image("z3.png", caption="Other Tour Image")
 
-# 動画の表示
 # 動画の表示
 kimono_video = st.video("https://youtu.be/BoHJpedovFM")
 
@@ -41,8 +41,8 @@ st.header('Q&A')
 with st.expander("About Price"):
     st.markdown("""
     - **Are the prices shown on the website per person?**
-        - Yes, the prices are per person.
-    - **How many people are in the group?**
+        - Yes, it is 25,000 yen per person.
+    - **How many people should be in the group to conduct a tour?**
         - The minimum number of participants is 2 people, and the maximum is 5 people.
     """)
 
