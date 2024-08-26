@@ -23,9 +23,9 @@ kimono_image = st.image("z2.png", caption="Temple, Karaoke, Food, etc.")
 
 # 動画の表示
 st.header('Introduction of Your guide Miley')
-st.text("Watch out for sounds")
+
 # サムネイル画像を表示
-st.image("thumbnail.jpg", caption="Click to play video", use_column_width=True)
+st.image("thumbnail.jpg", caption="Click below to play video (Watch out for sounds)", use_column_width=True)
 
 # ユーザーがクリックしたら動画を表示する
 if st.button("Play Video"):
@@ -35,10 +35,15 @@ if st.button("Play Video"):
 st.subheader('Other outfits and other locations')
 st.text("We also offer tours to Shinjuku/Akihabara etc.")
 
+# sample schedule 画像の表示
+kimono_image = st.image("schedule.jpg", caption="We can tailor it to meet your needs")
+
+
 # 画像の表示
 kimono_image = st.image("z3.png", caption="Other Tour Image")
 
-# 動画の表示
+# レビュー動画の表示
+st.header('Reviews')
 kimono_video = st.video("https://youtu.be/BoHJpedovFM")
 
 
