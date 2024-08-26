@@ -31,15 +31,13 @@ st.image("thumbnail.jpg", caption="Click below to play video (Watch out for soun
 if st.button("Play Video"):
     st.video("mileyintro.mp4", format="video/mp4")
 
-
-st.subheader('Other outfits and other locations')
-st.text("We also offer tours to Shinjuku/Akihabara etc.")
-
 # sample schedule 画像の表示
+st.subheader('Sample Schedule')
 kimono_image = st.image("schedule.jpg", caption="We can tailor it to meet your needs")
 
-
-# 画像の表示
+# 他のツアー画像の表示
+st.subheader('Other outfits and other locations')
+st.text("We also offer tours to Shinjuku/Akihabara etc.")
 kimono_image = st.image("z3.png", caption="Other Tour Image")
 
 # レビュー動画の表示
