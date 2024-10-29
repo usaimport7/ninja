@@ -12,9 +12,9 @@ gcp_service_account_info = json.loads(os.environ['GCP_SERVICE_ACCOUNT_JSON'])
 gc = gspread.service_account_from_dict(gcp_service_account_info)
 
 # titleの表示
-st.title('Discover Japan with Expert Guide?')
+st.title('Discover Japan with Expert Guides?')
 
-st.header('About Soraie Ninja guide Service by Miley')
+st.header('About Soraie Ninja guide Service by Smiley Walk')
 st.text("Asakusa guided tour")
 
 # 画像の表示
@@ -171,5 +171,5 @@ with st.form('Reservation Form'):
             ])
             st.success('NOT DONE YET! Please Pay below to Reserve your spot. Your spots will not be confirmed until payment is made.')
             
-            # 送信後に表示されるリンク(https://buy.stripe.com/7sIeWWbmA0oy6SQfZd)
-            st.markdown('Please [CLICK HERE](https://buy.stripe.com/7sIeWWbmA0oy6SQfZd) to make a payment. (Our staff will contact you after your payment.)')
+            # 送信後に表示されるリンク(https://buy.stripe.com/fZebKKduI8V4dheaEX)
+            st.markdown('Please [CLICK HERE](https://buy.stripe.com/fZebKKduI8V4dheaEX) to make a payment. (Our staff will contact you after your payment.)')
